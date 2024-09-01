@@ -23,6 +23,7 @@
 
         "STC" : {
             "both_time_control" : "8.0+0.08",
+            "both_options"      : "Threads=1 Hash=128",
             "workload_size"     : 32,
             "test_bounds"       : "[0.00, 10.00]"
         },
