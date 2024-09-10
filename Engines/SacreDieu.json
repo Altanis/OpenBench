@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 1629845,
+    "nps"     : 2000000,
     "source"  : "https://github.com/Altanis/sacre_dieu",
 
     "build" : {
@@ -13,7 +13,7 @@
     "test_presets" : {
 
         "default" : {
-            "base_branch"     : "main",
+            "base_branch"     : "master",
             "book_name"       : "Pohl.epd",
             "test_bounds"     : "[0.00, 5.00]",
             "test_confidence" : "[0.05, 0.05]",
@@ -22,7 +22,7 @@
         },
 
         "STC" : {
-            "both_time_control" : "8.0+0.08",
+            "both_time_control" : "5.0+0.05",
             "both_options"      : "Threads=1 Hash=128",
             "workload_size"     : 32,
             "test_bounds"       : "[0.00, 10.00]"
